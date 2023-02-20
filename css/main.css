@@ -286,11 +286,7 @@ main .message {
   max-width: 100%;
   background-color: red;
   height: 100%;
-}
-@media (max-width: 1199px) {
-  .country-datails .country .flag {
-    width: 400px;
-  }
+  width: 400px;
 }
 @media (max-width: 991px) {
   .country-datails .country .flag {

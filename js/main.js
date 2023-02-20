@@ -26,7 +26,7 @@ document.addEventListener("click", function (e) {
   }
   if (e.target.className === "country") {
     mainContainer.parentElement.classList.add("hide");
-    fetch("../js/data.json")
+    fetch("./js/data.json")
       .then((result) => {
         return result.json();
       })
