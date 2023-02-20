@@ -126,7 +126,7 @@ document.querySelector(".dark-mode").onclick = function () {
   document.documentElement.classList.toggle("dark-mode");
 };
 
-fetch("../js/data.json")
+fetch("./js/data.json")
   .then((result) => {
     return result.json();
   })
